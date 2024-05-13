@@ -34,7 +34,6 @@ listContainer.addEventListener('click',(e)=>{
   todoList = todoList.filter(todo => todo.id != toDelete)
   renderListContainer(todoList);
   localStorage.setItem("todo", JSON.stringify(todoList));
-
 })
 
 
@@ -44,26 +43,5 @@ function renderListContainer(todoList){
   })
   listContainer.innerHTML = item.join("");
 }
-function renderListContainer(todoList){
-  let item = todoList.map(({id,todo,isCompleted})=>{
-    return `<div class ="margin"><div class="flex"><input type ="checkbox" id="item-${id}" class="wishCheck" data-key = ${id} ${isCompleted ? "checked": ""}><label for="item-${id}" class="wishName ${isCompleted ? "checked-todo": ""}" data-key=${id}>${todo}</label></div><img src="icons8-delete-50.png" data-todokey = ${id} class ="cursor"></div>`
-  })
-  listContainer.innerHTML = item.join("");
-}
-
-
-listContainer.addEventListener('click',(e)=>{
-  let key = e.target.dataset.key;
-  let toDelete = e.target.dataset.todokey ;
-  todoList.map(todo => {
-    if(key===todo.id){
-      todo.isCompleted = !todo.isCompleted
-    }
-  })
-  todoList = todoList.filter(todo => todo.id != toDelete)
-  renderListContainer(todoList);
-  localStorage.setItem("todo", JSON.stringify(todoList));
-
-})
 
 renderListContainer(todoList);
