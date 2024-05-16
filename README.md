@@ -17,7 +17,7 @@
 
 -   Gautam Mendiratta - follow me on 👇
 -   [GitHub](https://github.com/cogitosnippet)
--   [LinkedIn](www.linkedin.com/in/gautam-mendiratta-090234214)
+-   [LinkedIn](https://www.linkedin.com/in/gautam-mendiratta-090234214/)
 
 
 ## Live Link
