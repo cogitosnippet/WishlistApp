@@ -16,7 +16,7 @@
 ## Author
 
 -   Gautam Mendiratta - follow me on 👇
--   [GitHub]()
+-   [GitHub](https://github.com/cogitosnippet)
 -   [LinkedIn]()
 
 
