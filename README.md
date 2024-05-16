@@ -1,10 +1,10 @@
 # WishList App
 
-[WishList](https://appnoteit.netlify.app/) is a super cool note wishlist app, where you can add your wishes and store it forever. You can use functionalities like striking off or removing the wish which has been completed.
+[WishList](https://cg-wishlist.netlify.app/) is a super cool note wishlist app, where you can add your wishes and store it forever. You can use functionalities like striking off or removing the wish which has been completed.
 
 
 ## List of features
-[Home Page](https://appnoteit.netlify.app/)
+[Home Page](https://cg-wishlist.netlify.app/)
 - In the home page, you can add wish and remove using bin Icon.
 
 ## Tech Stack
@@ -22,7 +22,7 @@
 
 ## Live Link
 
-
+https://cg-wishlist.netlify.app/
 
 
 ## Run Locally
